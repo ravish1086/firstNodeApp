@@ -30,6 +30,10 @@ app.get('/api/persons',(request,response)=>
 {
         response.json(persons);
 })
+app.get('/',(request,response)=>
+{
+        response.json(persons);
+})
 
 PORT = 3000
 
